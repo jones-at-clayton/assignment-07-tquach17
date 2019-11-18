@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+		<meta charset = "UTF-8">
+		<meta name="author" content="Tony Quach">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css"/>
+		<title> E-ZPcBuilder </title>
+		
+</head>
+	
+<body>
+	
+ 	<header> 
+		<h1>E-Z PcBuilder </h1>
+		</header>
+		
+		<nav>
+	
+			 <a href="">E-Z Configuration</a>|
+			 <a href="">Case</a>|
+			 <a href="">CPU</a>|
+			 <a href="">Motherboard</a>|
+			 <a href="">Memory</a>|
+			 <a href="">Storage</a>|
+			 <a href="">Graphics Card</a>|
+			 <a href="">Power Supply</a>|
+			 <a href="">Cooling</a>|
+			 <a href="">Checkout</a>
+		</nav> 
+		
+		<form action="/action_page.php">
+		<fieldset>
+		
+		<h1>Checkout</h1>
+		
+		<fieldset>
+		<legend>Personal information:</legend>
+		<div>
+		First name:<br>
+		<input type="text" name="firstname" value=""><br>
+		Last name:<br>
+		<input type="text" name="lastname" value=""><br>
+		E-mail:<br>
+		<input type="email" name="email"><br>
+		Adress line 1:<br>
+		<input type="text" name="Adress line 1" value=""><br>
+		Adress line 2:<br>
+		<input type="text" name="Adress line 2" value=""><br>
+		City:<br>
+		<input type="text" name="City" value=""><br>
+		State:<br>
+		<input type="text" name="State" value=""><br>
+		Postal Code:<br>
+		<input type="text" name="Postal Code" value=""><br>
+		Country/Region:<br>
+		</div>
+		<select>
+		<option value="United States">United States</option>
+		<option value="Canada">Canada</option>
+		</select>
+		
+		</fieldset>
+		
+		<fieldset>
+		<legend>Shipping:</legend>
+		<div>
+		<input type="radio" name="shipping" value="Regular Shipping" checked>Regular Shipping (5-7 days)<br>
+		<input type="radio" name="shipping" value="2-day Shipping">2-day Shipping<br>
+		<input type="radio" name="shipping" value="1-day Shipping">1-day Shipping
+		</div>
+		</fieldset>
+		
+		<fieldset>
+		<legend>Order Comments or Special Instructions:</legend>
+		<textarea name="message">
+		</textarea>
+		</fieldset>
+		<br>
+		<button onclick="myFunction()">Place your order</button>
+		
+		 	<script src="alertbox.js"></script>
+		 </fieldset>
+		 
+		</form>
+		
+		
+		<footer>
+			<p> Contact information:
+			<a href="mailto:tquach1@student.clayton.edu">tquach1@student.clayton.edu</a>.</p>
+			<p> Due 11/17/2019 </p>
+		</footer>
+
+</body>
+</html>
